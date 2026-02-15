@@ -71,13 +71,17 @@ Modify `config/experiment.yaml` to adjust:
 
 ## 📊 Outputs
 
-The engine generates:
 - **`evaluation_final.csv`**: Detailed metrics for every query/engine pair.
-- **Plots**:
-    - `precision_recall_curve.png`
-    - `spearman_boxplot.png`
-    - `metrics_heatmap.png`
-    - `bootstrap_ci.png`
+- **Visualizations**:
+  
+  **Precision-Recall Curve**
+  ![PR Curve](screenshots/precision_recall_curve.png)
+
+  **Ranking Correlation Distribution**
+  ![Spearman](screenshots/spearman_boxplot.png)
+
+  **Metrics Heatmap**
+  ![Heatmap](screenshots/metrics_heatmap.png)
 
 ## 🤝 Contributing
 
