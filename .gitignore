@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.eggs/
+*.egg-info/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Selenium / Browser
+# =========================
+chromedriver
+geckodriver
+msedgedriver
+
+# =========================
+# Generated Outputs
+# =========================
+output/
+outputs/
+results/
+
+# Task-specific outputs
+output/task1/
+output/task2/
+
+# Generated data files
+*.csv
+*.json
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+
